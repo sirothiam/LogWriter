@@ -46,8 +46,8 @@ namespace LogWriter
              //********************** Start Log Error To File. ***************
 
 
-                LogHelper.Log(LogTarget.File, message);
-                Console.WriteLine("Error logged to File");
+                //LogHelper.Log(LogTarget.File, message);
+                //Console.WriteLine("Error logged to File");
 
              //********************** End Start Log Error To File. ***************
 
@@ -56,8 +56,8 @@ namespace LogWriter
              //********************** Start Log Error To Database. ***************
 
 
-                LogHelper.Log(LogTarget.Database, message);
-                Console.WriteLine("Error logged to Database");
+                //LogHelper.Log(LogTarget.Database, message);
+                //Console.WriteLine("Error logged to Database");
 
                     //********************** Start Log Error To Database. ***************
 
